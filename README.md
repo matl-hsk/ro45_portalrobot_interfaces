@@ -9,6 +9,6 @@ The `RobotPos` message contains the measured position of the robot.
 ## Build
 To build the interface package clone it into the `src` folder inside your ros2 workspace directory and run
 ```bash
-ros2 pkg create --build-type ament_cmake ro45_portalrobot_interfaces
+colcon build --packages-select ro45_portalrobot_interfaces
 ```
 from the workspace directory.
